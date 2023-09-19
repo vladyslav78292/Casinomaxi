@@ -495,6 +495,10 @@ footer > p {
     width: 100%;
   }
 
+  ul, ol {
+    padding-left: 10px;
+  }
+
   main {
     padding: 30px 20px;
   }
