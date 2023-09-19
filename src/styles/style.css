@@ -388,7 +388,7 @@ footer > p {
 }
 
 .homepage {
-  width: 40%;
+  width: 55%;
 }
 
 .destek, .kayit {
@@ -408,6 +408,10 @@ footer > p {
   border-radius: 27px;
 }
 
+.logo {
+  width: 140px;
+}
+
 .homepage_container {
   justify-content: space-around;
 }
@@ -424,7 +428,7 @@ footer > p {
   width: 50%;
 }
 
-.sikayette, .transferleri {
+.sikayette, .transferleri, .center_image, .mobile, .destek, .license, .kayit, .homepage {
   border: 2px solid #F7CC30;
 }
 
@@ -436,6 +440,10 @@ footer > p {
   max-width: 90%;
 }
 
+.giris-image {
+  width: 30%;
+}
+
 @media (max-width: 1200px) {
   main {
     padding: 40px 50px;
@@ -443,7 +451,7 @@ footer > p {
 }
 
 @media (max-width: 1024px) {
-  .mobile_container {
+  .mobile_container, .kayit_container {
     flex-direction: column;
   }
 
