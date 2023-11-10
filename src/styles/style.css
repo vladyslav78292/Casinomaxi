@@ -30,7 +30,7 @@ img {
 }
 
 body {
-  background-color: #082C2A;
+  background-color: #fff;
 }
 
 header > div:first-of-type {
@@ -64,7 +64,7 @@ h1 {
 }
 
 main {
-  padding: 90px 80px;
+  padding: 90px 60px;
   margin: 0 auto;
 }
 
@@ -204,10 +204,15 @@ footer > p {
 
 .list_titles {
   margin: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  width: 100%;
 }
 
 .list_titles > li {
   margin: 0;
+  white-space: nowrap;
 }
 
 .tables {
@@ -431,7 +436,7 @@ footer > p {
   width: 350px;
 }
 
-.sikayette, .transferleri, .center_image, .mobile, .destek, .license, .kayit, .homepage {
+.border-image {
   border: 2px solid #F7CC30;
 }
 
@@ -448,7 +453,7 @@ footer > p {
 }
 
 .registration {
-  width: 250px;
+  width: 450px;
 }
 
 .registration_container {
@@ -464,6 +469,11 @@ footer > p {
 @media (max-width: 1200px) {
   main {
     padding: 40px 50px;
+  }
+
+  .list_titles {
+    flex-wrap: wrap;
+    justify-content: flex-start;
   }
 }
 
@@ -520,6 +530,15 @@ footer > p {
     padding: 30px 20px;
   }
 
+  .list_titles {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .registration {
+    width: 100%;
+  }
+
   .image_container {
     flex-direction: column;
   }
@@ -539,7 +558,7 @@ footer > p {
 }
 
 .casinomaxi-wrapper {
-  background-color: #1e212f;
+  background-color: #082C2A;
   border-radius: 10px;
   padding: 30px;
   margin: 20px 0;
