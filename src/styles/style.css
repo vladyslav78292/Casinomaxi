@@ -433,7 +433,15 @@ footer > p {
 }
 
 .bonus {
-  width: 500px;
+  width: 530px;
+}
+
+blockquote {
+  color: #fff;
+}
+
+i, cite {
+  color: #F7CC30;
 }
 
 .border-image {
@@ -581,6 +589,7 @@ footer > p {
   font-weight: 900;
   font-size: 32px;
   font-style: italic;
+  color: #F7CC30;
   line-height: 38px
 }
 
@@ -628,7 +637,7 @@ footer > p {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
-  fill: #fff;
+  fill: #F7CC30;
 }
 
 .casinomaxi-faq__body-details[open] .casinomaxi-faq__body-answer p {
