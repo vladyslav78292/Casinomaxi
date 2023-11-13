@@ -63,8 +63,21 @@ h1 {
   z-index: 100;
 }
 
+.reviews {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 20px; */
+  flex-wrap: wrap;
+}
+
+blockquote {
+  width: calc(50% - 20px);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 main {
-  padding: 90px 60px;
+  padding: 50px 60px;
   margin: 0 auto;
 }
 
@@ -399,8 +412,8 @@ footer > p {
   width: 55%;
 }
 
-.destek, .kayit {
-  width: 250px;
+.destek {
+  width: 400px;
 }
 
 .license {
@@ -474,6 +487,10 @@ i, cite {
   align-items: center;
 }
 
+.lisans_title {
+  text-align: center;
+}
+
 @media (max-width: 1200px) {
   main {
     padding: 40px 50px;
@@ -486,8 +503,15 @@ i, cite {
 }
 
 @media (max-width: 1024px) {
-  .mobile_container, .kayit_container {
+  .mobile_container, .kayit_container, .destek_container, .lisans_container {
     flex-direction: column;
+  }
+
+  .destek_container > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .bonus_container {
@@ -530,7 +554,11 @@ i, cite {
 }
 
 @media (max-width: 720px) {
-  .center_image {
+  .center_image, .destek {
+    width: 100%;
+  }
+
+  blockquote {
     width: 100%;
   }
 
@@ -561,7 +589,7 @@ i, cite {
   }
 
   h1 {
-    font-size: 2.5em;
+    font-size: 2.1em;
   }
 
   .options_container {
