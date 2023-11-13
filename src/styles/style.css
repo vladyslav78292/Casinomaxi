@@ -66,14 +66,20 @@ h1 {
 .reviews {
   display: flex;
   justify-content: space-between;
-  /* gap: 20px; */
   flex-wrap: wrap;
 }
 
 blockquote {
-  width: calc(50% - 20px);
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.review {
+  background-color: #082C2A;
+  border-radius: 10px;
+  width: calc(50% - 20px);
+  padding: 30px;
+  margin: 20px 0;
 }
 
 main {
@@ -558,7 +564,7 @@ i, cite {
     width: 100%;
   }
 
-  blockquote {
+  .review {
     width: 100%;
   }
 
@@ -665,6 +671,9 @@ i, cite {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.casinomaxi-faq__body-question svg {
   fill: #F7CC30;
 }
 
